@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Handlee&display=swap");
+
+.profile {
+  /*/ I removed the image until user can actually enter his own image.
+  Did not edit the grid. /*/
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.profile-text {
+  padding-left: 1rem;
+  justify-self: center;
+  max-width: 50vw;
+}
+
+.headline {
+  font-family: "Handlee", cursive;
+  font-size: 3rem;
+}
+
+.profile-content {
+  font-family: "Amiri", serif;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+.edit-profile-button,
+.save-profile-button {
+  background-color: #72b340;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.edit-profile-button:hover,
+.save-profile-button:hover {
+  cursor: pointer;
+  background-color: #f5b8d2;
+  color: black;
+}
+
+.edit-mode {
+  border-bottom: 2px solid #f5b8d2;
+  border-color: #f5b8d2;
+}
+
+.phone {
+  margin-left: 1rem;
+}
+
+h1:last-of-type {
+  margin-top: 3rem;
+}
+
+.add-dish-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.dish-form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.add-dish-button {
+  background-color: #72b340;
+  color: white;
+}
+
+.fa-trash {
+  margin-left: 0.5rem;
+  color: #f5b8d2;
+  display: none;
+  float: right;
+}
+
+.fa-trash:hover {
+  cursor: pointer;
+}
