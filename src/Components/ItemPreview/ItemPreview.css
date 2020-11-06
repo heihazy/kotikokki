@@ -1,15 +1,17 @@
-.item-preview{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
+.item-preview {
+  display: grid;
+  margin-bottom: 30px;
 }
 
-.title{
-    font-size: 28px;
-    margin-bottom: 25px;
+.title {
+  font-size: 28px;
+  margin-bottom: 25px;
+  justify-self: center;
 }
 
 .preview {
-    display: flex;
-    justify-content: space-between;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  padding: 40px;
 }
