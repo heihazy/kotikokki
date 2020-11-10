@@ -1,0 +1,29 @@
+.mobile-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 15vh;
+  border-bottom: 1px solid #333333;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  background-color: rgba(247, 239, 242, 0.733);
+}
+
+.logo-mobile {
+  width: 40%;
+}
+
+.mobile-menu ul {
+  display: grid;
+  grid-gap: 2rem;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.mobile-menu li {
+  color: #333333;
+  font-size: 24px;
+  font-family: "Amiri", serif;
+}

@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Handlee&display=swap");
 
 .profile {
-  /*/ I removed the image until user can actually enter his own image.
-  Did not edit the grid. /*/
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
